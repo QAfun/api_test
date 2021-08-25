@@ -2,13 +2,16 @@
 
 import requests
 
+url = 'http://ip-api.com/json'
+
 def test_check_country():
-    res = requests.get('http://ip-api.com/json')
+
+    res = requests.get(url)
     data = res.json()
 
     country = data.get('country')
 
-    assert country == 'Litva', 'Country is wrong!'
+    assert country == 'Belarus', 'Country is wrong!'
     
 
 
