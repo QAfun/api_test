@@ -8,8 +8,8 @@ def test_check_country():
 
     country = data.get('country')
 
-    assert country == 'Belarus', 'Country is wrong!'
-
+    assert country == 'Litva', 'Country is wrong!'
+    
 
 
 
