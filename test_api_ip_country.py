@@ -1,11 +1,11 @@
 # -*- encoding=utf8 -*-
 
 import requests
+from requests.auth import HTTPBasicAuth
 
-url = 'http://ip-api.com/json'
 
 def test_check_country():
-
+    url = 'http://ip-api.com/json'
     res = requests.get(url)
     data = res.json()
 
