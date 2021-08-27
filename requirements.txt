@@ -1,4 +1,6 @@
-Flask
+Flask~=2.0.1
 Flask-BasicAuth
-requests
-ConfigParser
+requests~=2.26.0
+ConfigParser~=5.0.2
+
+pytest~=6.2.4
