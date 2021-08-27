@@ -1,7 +1,6 @@
 # -*- encoding=utf8 -*-
 
 import requests
-from requests.auth import HTTPBasicAuth
 
 
 def test_check_country():
@@ -12,10 +11,4 @@ def test_check_country():
     country = data.get('country')
 
     assert country == 'Belarus', 'Country is wrong!'
-    
-
-
-
-
-
 
